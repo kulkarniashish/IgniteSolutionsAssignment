@@ -1,0 +1,12 @@
+To run the below programs, you need java to be installed on your machine.
+
+To compile: 
+$ javac <PROGRAM_NAME>.java
+e.g
+$ javac FibonacciSumCalculator.java
+
+To run:
+$ java PROGRAM_NAME
+e.g.
+java FibonacciSumCalculator
+
