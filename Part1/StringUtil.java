@@ -19,8 +19,8 @@ public class StringUtil {
 
 		int j = 0;
 		for (int i = 0; i < array.length; i++) {
-			if (str.charAt(i) != ' ' && str.charAt(i) != '@'
-					&& str.charAt(i) != '.' && str.charAt(i) != '!')
+			if (Character.isLetterOrDigit(str.charAt(i)) ||										
+					str.charAt(i) == '-')
 				continue;
 
 			else {
